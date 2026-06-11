@@ -1,0 +1,90 @@
+/* Importando a fonte Pacifico do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    font-family: "Pacifico", cursive;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #f0fdf4;
+    color: #333;
+}
+
+/* Cabeçalho com gradiente vibrante */
+header {
+    background: linear-gradient(135deg, #00bef8, #13df00);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.4em;
+}
+
+/* Seções com efeito card */
+section {
+    padding: 40px 25px;
+    max-width: 1000px;
+    margin: auto;
+    background: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 18px rgba(0,0,0,0.15);
+}
+
+h2 {
+    color: #ffd900;
+    margin-bottom: 15px;
+    border-left: 6px solid #66bb6a;
+    padding-left: 12px;
+    font-size: 1.8em;
+}
+
+/* Destaques */
+.highlight {
+    color: #12007a;
+    background-color: #e8f5e9;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background: #ff0000;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+/* Links */
+a {
+    color: #ff00ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #66bb6a;
+    text-decoration: underline;
+}
